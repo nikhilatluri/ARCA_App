@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/walpaper_app"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".Expences">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Expenses"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/et_dateex"
+        android:background="@drawable/round_edittext"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/et_expensese"
+        android:background="@drawable/round_edittext"
+        android:padding="10dp"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Expenses Type" />
+
+    <EditText
+        android:id="@+id/et_descriptione"
+        android:background="@drawable/round_edittext"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description about Expense" />
+
+    <EditText
+        android:id="@+id/et_sizee"
+        android:background="@drawable/round_edittext"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Size of fish or any" />
+
+
+    <EditText
+        android:id="@+id/et_qtye"
+        android:background="@drawable/round_edittext"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Quantity" />
+
+    <EditText
+        android:id="@+id/et_pricee"
+        android:background="@drawable/round_edittext"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Price" />
+
+    <EditText
+        android:id="@+id/et_transe"
+        android:background="@drawable/round_edittext"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Transportation Cost" />
+
+    <Button
+        android:id="@+id/bt_addex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/bt_deleteex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Delete Existing Data"
+        android:layout_below="@id/bt_addex"/>
+    <Button
+        android:id="@+id/bt_viewsex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="View Data"
+        android:layout_below="@id/bt_deleteex"/>
+
+</LinearLayout>

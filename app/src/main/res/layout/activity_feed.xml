@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/walpaper_app"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Feed">
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Feed"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/et_datef"
+        android:background="@drawable/round_edittext"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/et_timef"
+        android:background="@drawable/round_edittext"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/et_Tank"
+        android:background="@drawable/round_edittext"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Tank Number" />
+
+    <EditText
+        android:id="@+id/et_qtyf"
+        android:background="@drawable/round_edittext"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Quantity" />
+
+    <Button
+        android:id="@+id/bt_addf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="40dp"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/bt_deletef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Delete Existing Data"
+        android:layout_below="@id/bt_addf"/>
+    <Button
+        android:id="@+id/bt_viewf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="View Data"
+        android:layout_below="@id/bt_deletes"/>
+
+</LinearLayout>

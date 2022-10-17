@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "505287126729",
+    "project_id": "arca-964eb",
+    "storage_bucket": "arca-964eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505287126729:android:446cb5cbf36385504de718",
+        "android_client_info": {
+          "package_name": "com.example.arca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505287126729-ai6sc869501pkcgk68oieci6ej5jkeda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtwBqaT_XJ7msB25L_b-l5VAnrAuQaWsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505287126729-ai6sc869501pkcgk68oieci6ej5jkeda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
